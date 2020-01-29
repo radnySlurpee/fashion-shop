@@ -30,9 +30,17 @@ class SignIn extends React.Component{
             this.setState({email:'', password:''});
 
         } catch (error) {
-            console.error(error);
+            if (error.code === 'auth/user-not-found') {
+                console.error("User Does not Exist");
+            }else if(error.code === 'auth/wrong-password'){
+                console.error("Incorrect Password");
+            }
+            else{
+                console.error(error);
+            }
+            
         }
-
+        return;
     }
 
     handleChange = (event) => {
