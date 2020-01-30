@@ -45,8 +45,8 @@ export const firestore = firebase.firestore();
 
 const provider = new firebase.auth.GoogleAuthProvider();
 provider.setCustomParameters({ prompt: 'select_account' });
-export const signInWithGoogle = () => auth.signInWithPopup(provider).catch(function(error){
-    console.log('Whoops! looks like we got a problem', error);
+export const signInWithGoogle = () => auth.signInWithPopup(provider).catch((error) => {
+    console.log('Google Sign In Closed');
   });
 
 export default firebase;
