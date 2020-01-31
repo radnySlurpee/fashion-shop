@@ -13,6 +13,9 @@
     font-weight: bolder;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 
     &.google-sign-in {
       background-color: #4285f4;
@@ -22,6 +25,18 @@
         background-color: white;
         color: #357ae8;
         border: 1px solid #357ae8;
+      }
+    }
+
+    &.inverted {
+      background-color: white;
+      color:black;
+
+      &:hover {
+        transition: all 0.2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        background-color: black;
+        color: white;
+        border: none;
       }
     }
   
