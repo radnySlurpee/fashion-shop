@@ -7,8 +7,8 @@
   
     .logo-container {
       height: 100%;
-      width: 70px;
-      padding: 25px;
+      width: 100px;
+      padding: 13px;
     }
   
     .options {
@@ -21,7 +21,15 @@
       .option {
         padding: 10px 15px;
         cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+        &:hover{
+          transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+          box-shadow: inset 0 -0.4px 0 0 black;
+        }
       }
+
+
     }
   }
   
