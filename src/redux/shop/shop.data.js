@@ -8,7 +8,7 @@ const SHOP_DATA = [
         id: 1,
         name: 'Jordan Classic',
         imageUrl: 'https://i.ibb.co/jwspz2m/jordan-classic99-snapback-hat-NTBzf-X.jpg',
-        price: 25
+        price: 25,
       },
       {
         id: 2,
