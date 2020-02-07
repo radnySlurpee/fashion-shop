@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats: {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  sneakers: {
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  jackets: {
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  womens: {
     id: 4,
     title: 'Womens',
     routeName: 'womens',
@@ -201,50 +201,50 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  mens: {
     id: 5,
     title: 'Mens',
     routeName: 'mens',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        name: 'Giannis Drifit',
+        imageUrl: 'https://i.ibb.co/sPVPyK5/giannis-dri-fit-basketball-t-shirt-j23-T5l.jpg',
         price: 325
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        name: 'Jordan Jumpman Classics',
+        imageUrl: 'https://i.ibb.co/QFdfkLx/jordan-jumpman-classics-fleece-crew-sxjj12.jpg',
         price: 20
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        name: 'Jordan 23 Alpha',
+        imageUrl: 'https://i.ibb.co/kJVgVK6/jordan-23-alpha-short-sleeve-training-top-1-K4-Lp-Q.jpg',
         price: 25
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        name: 'SB Icon Skate Crew',
+        imageUrl: 'https://i.ibb.co/S5CS0bQ/sb-icon-skate-crew-HQHc9t.jpg',
         price: 25
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+        name: 'Drifit PG',
+        imageUrl: 'https://i.ibb.co/KhsFprD/dri-fit-pg-basketball-t-shirt-C0g-KGh.jpg',
         price: 40
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        name: 'LeBron Lakers NBA Edition',
+        imageUrl: 'https://i.ibb.co/vxwc2Ww/lebron-james-lakers-city-edition-nba-swingman-jersey-GZB7z-D.jpg',
         price: 25
       }
     ]
   }
-];
+};
 
 //https://rad-ongtawco.imgbb.com/
 
