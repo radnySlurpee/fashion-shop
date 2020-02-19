@@ -38,11 +38,14 @@ const CheckoutPage = ({ cartItems, total, currentUser }) => (
         </div>
         {
             currentUser ?
-            (<StripeCheckoutButton price={total} currentUser={currentUser.email}/>)
+                cartItems.length > 0 ?
+                    (<StripeCheckoutButton price={total} currentUser={currentUser.email}/>)
+                    : 
+                    (<div className="testcode"> No items selected</div>)
             :
-            (<div className="testcode"> Please Login </div>)
+                (<div className="testcode"> Please Login </div>)
         }
-            <div className="testcode"> Please use this credit card for testing on payments <br/> 4242 4242 4242 4242 - Exp:02/20 - CVC:123 </div>
+        <div className="testcode"> Please use this credit card for testing on payments <br/> 4242 4242 4242 4242 - Exp:02/20 - CVC:123 </div>
 
     </div>
 )
